@@ -39,6 +39,7 @@ public class Taxi extends Vehicle implements DrawableItem
     {
         Location target = getTargetLocation();
         if(target != null) {
+            incrementBusyCount();
             // Find where to move to next.
             Location next = getLocation().nextLocation(target);
             setLocation(next);
