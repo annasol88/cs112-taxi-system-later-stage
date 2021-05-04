@@ -35,13 +35,20 @@ public class Location
      * @param destination Where we want to get to.
      * @return A location in a direct line from this to
      *         destination.
+     * @throws MissingLocationException If a location is null.
      */
     public Location nextLocation(Location destination)
     {
+        //Validation to check if destination is null
+        if(destination == null){
+            throw new MissingLocationException(destination);
+        }
+
         int destX = destination.getX();
         int destY = destination.getY();
         int offsetX = x < destX ? 1 : x > destX ? -1 : 0;
         int offsetY = y < destY ? 1 : y > destY ? -1 : 0;
+
         if(offsetX != 0 || offsetY != 0) {
             return new Location(x + offsetX, y + offsetY);
         }
@@ -60,7 +67,11 @@ public class Location
     {
         int xDist = Math.abs(destination.getX() - x);
         int yDist = Math.abs(destination.getY() - y);
-        return Math.max(xDist, yDist);
+        int max = Math.max(xDist, yDist);
+        if(max < 0){
+            throw new NegativeNumberException(max);
+        }
+        return max;
     }
     
     /**
