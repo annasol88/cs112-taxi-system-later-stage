@@ -54,6 +54,7 @@ public class PassengerSource implements Actor
             }
             else {
                 missedPickups++;
+                System.out.println("Missed Pickups: " + getMissedPickups());
             }
         }
     }

@@ -55,6 +55,7 @@ public class Taxi extends Vehicle implements DrawableItem
         }
         else {
             incrementIdleCount();
+            System.out.println("Idle Count: " + getIdleCount());
         }
     }
 
