@@ -16,12 +16,18 @@ public class Simulation
     /**
      * Create the initial set of actors for the simulation.
      */
-    public Simulation()
-    {
+    public Simulation() throws Exception {
         actors = new LinkedList<>();
         step = 0;
         City city = new City();
-        TaxiCompany company = new TaxiCompany(city);
+        TaxiCompany company = null;
+
+        try {
+            company = new TaxiCompany(city);
+        } catch (Exception e) {
+            throw new Exception(e.getCause());
+        }
+
         PassengerSource source = new PassengerSource(city, company);
         
         actors.addAll(company.getVehicles());

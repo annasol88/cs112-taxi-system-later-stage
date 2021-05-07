@@ -26,12 +26,20 @@ public class TaxiCompany
     /**
      * @param city The city.
      */
-    public TaxiCompany(City city)
-    {
+    public TaxiCompany(City city) throws Exception {
+        if(city == null){
+            throw new MissingCityException(city);
+        }
+
         this.city = city;
         vehicles = new LinkedList<>();
         assignments = new HashMap<>();
-        setupVehicles();
+
+        try{
+            setupVehicles();
+        } catch (Exception e){
+            throw new Exception(e.getCause());
+        }
     }
 
     /**
