@@ -1,59 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="395ab7ee-cac9-4122-81e6-fb46cd58f688" name="Default Changelist" comment="Versioned main files.">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs112-taxi-system-later-stage.iml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shuttle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shuttle.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Actor.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/City.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI$CityView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI$CityView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI$CityView.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/CityGUI.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/DrawableItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/DrawableItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/DrawableItem.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/InvalidDestinationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/InvalidDestinationException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Item.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Location.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/MissingPassengerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/MissingPassengerException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/MissingPassengerException.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Passenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/PassengerSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/PassengerSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/PassengerSource.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Shuttle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Shuttle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Shuttle.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Simulation.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Taxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Taxi.class~HEAD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/TaxiCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/TaxiCompany.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cs112-taxi-system-later-stage/Vehicle.class~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PassengerSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PassengerSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shuttle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shuttle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taxi.java" afterDir="false" />
+>>>>>>> 4f62bf6ca61120b44a73eb215b13b48e653ecd36
+      <change beforePath="$PROJECT_DIR$/taxi-company-later-stage/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +91,17 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cs112-taxi-system-later-stage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,27 +173,5 @@
     <MESSAGE value="Added exceptions to main classes and created new exceptions." />
     <MESSAGE value="Versioned main files." />
     <option name="LAST_COMMIT_MESSAGE" value="Versioned main files." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1620388664925">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1620388664925" />
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1620389857982">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620389857982" />
-    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1620389857982">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620389857982" />
-    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1620389857981">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620389857981" />
-    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1620389857982">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620389857982" />
   </component>
 </project>
