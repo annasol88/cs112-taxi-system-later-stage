@@ -1,11 +1,13 @@
 public class Main {
-    public static void main(String[] args) {
-        //Simulation s1 = new Simulation();
-       // s1.run();
-
-Location pickup = new Location(10,10);
-Location destination = new Location(10,10);
-        Passenger passenger = new Passenger(pickup, destination);
+    public static void main(String[] args){
+        Simulation s1 = null;
+        try {
+            s1 = new Simulation();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        assert s1 != null;
+        s1.run();
 
     }
 }
