@@ -33,6 +33,14 @@ public class Shuttle extends Vehicle
      */
     public void act()
     {
+        Location target = getTargetLocation();
+        if(target != null) {
+            incrementBusyCount();
+            // move location or offload/pickup passengers here
+        }
+        else {
+            incrementIdleCount();
+        }
     }
 
     /**

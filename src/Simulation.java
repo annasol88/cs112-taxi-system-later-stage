@@ -46,6 +46,15 @@ public class Simulation
             step();
             wait(100);
         }
+        int i = 0;
+        for(Actor actor : actors){
+            if(Vehicle.class.isInstance(actor)){
+                Vehicle vehicle = (Vehicle) actor;
+                System.out.println("idleCount for vehicle" + i + ": " + vehicle.getIdleCount());
+
+            }
+            i++;
+        }
     }
 
     /**
