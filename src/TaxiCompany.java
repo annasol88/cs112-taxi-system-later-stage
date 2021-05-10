@@ -51,6 +51,9 @@ public class TaxiCompany
         Vehicle vehicle = scheduleVehicle();
         if (vehicle != null) {
             if (vehicle.isFree()) {
+                if(vehicle.getTargetLocation() != null){
+                    throw new OverloadedVehicleException();
+                }
                 assignments.put(vehicle, passenger);
                 vehicle.setPickupLocation(passenger.getPickupLocation());
                 return true;
